@@ -6,8 +6,8 @@
 }
 
 .box {
-  height: 5rem;
-  width: 5rem;
+  height: 10rem;
+  width: 10rem;
   background-color: tomato;
   animation: animate 5s infinite alternate linear;
   position: relative;
