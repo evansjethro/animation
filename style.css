@@ -1,0 +1,40 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  height: 5rem;
+  width: 5rem;
+  background-color: tomato;
+  animation: animate 5s  alternate linear;
+  position: relative;
+}
+
+@keyframes animate {
+  0% {
+    left: 0;
+    right: 0;
+  }
+  25% {
+    left: 20rem;
+    top: 0;
+    background-color: aqua;
+  }
+  50% {
+    top: 20rem;
+    left: 20rem;
+    background-color: purple;
+  }
+  75% {
+    left: 0;
+    top: 20rem;
+    background-color: goldenrod;
+  }
+  100% {
+    left: 0;
+    top: 0;
+  }
+}
