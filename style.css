@@ -2,7 +2,7 @@
 *::before,
 *::after {
   margin: 0;
-  padding: 0;
+  padding: 5rem;
 }
 
 .box {
@@ -12,6 +12,9 @@
   box-shadow: 0.1rem 0.1rem 0.7rem #ccc;
   animation: animate 5s infinite alternate linear;
   position: relative;
+  color:white;
+  font-size:0.9rem;
+  text-align: center;
 }
 
 @keyframes animate {
