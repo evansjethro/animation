@@ -9,7 +9,7 @@
   height: 5rem;
   width: 5rem;
   background-color: tomato;
-  animation: animate 5s  alternate linear;
+  animation: animate 5s infinite alternate linear;
   position: relative;
 }
 
